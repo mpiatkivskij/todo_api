@@ -8,7 +8,7 @@ class TasksController < ApplicationController
    
     def update
       @task.update(task_params)
-      render json: task
+      render json: @task
     end
   
     def destroy 
