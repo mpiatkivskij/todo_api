@@ -47,6 +47,9 @@ end
 
 gem 'bcrypt'
 
+gem 'rails_12factor'
+gem 'foreman'
+
 gem 'jwt' 
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
@@ -62,3 +65,5 @@ end
     # for production purposes
     gem 'pg'
   end
+
+  
